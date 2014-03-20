@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="skin">
+<head>
+<title>TinySlider -Fabio Vergani Mods</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="script_mod1.js"></script>
+</head>
+<body>
+
+
+<!--	 -->
+	<div id="slideshow">
+		<div id="slides">
+			<ul>
+				<li><img src="photos/1.jpg" alt="Image One" /></li>
+				<li><img src="photos/2.jpg" alt="Image Two" /></li>
+				<li><img src="photos/3.jpg" alt="Image Three" /></li>
+				<li><img src="photos/4.jpg" alt="Image Four" /></li>
+			</ul>
+			<ul id='paginator' class="control"></ul>
+		</div>
+		<div id="slideright" class="arrow">&#9654;</div>
+		<div id="slideleft" class="arrow">&#9664;</div>
+	</div>
+
+
+<script type="text/javascript">
+var slideshow=new MY.slider('slideshow','paginator','slides',{
+	startpos:0,vertical:0,elastic:1,auto:2,//false for no automation else the number of seconds between slides
+	resume:1,//continue auto sliding after interruption
+	rewind:0,// toggle "rewinding", else the slides will be continuous
+});
+</script>
+</body>
+</html>

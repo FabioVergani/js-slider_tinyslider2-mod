@@ -1,0 +1,71 @@
+#slideshow,
+#slideshow ul,
+#slideshow li,
+#slideshow div,
+#slideshow img{margin:0 auto;padding:0;border:none;list-style:none;text-align:left;overflow:hidden}
+
+#slides,
+#slides li{float:left;position:relative}
+
+#slides ul{position:absolute;top:0}
+
+#slideshow div.arrow{position:absolute;cursor:pointer;width:25px;height:25px;font:25px/21px arial,sans-serif;}
+
+#slideleft.arrow{padding-right:3px;float:left;text-align:right}
+#slideright.arrow{padding-left:3px;float:right}
+
+#paginator.control{width:100%;text-align:center}
+#paginator.control li{float:none;border:1px solid transparent;cursor:pointer}
+
+#slideshow,
+#slideshow li{display:inline-block;}
+
+
+
+/**/
+
+.skin #slideshow{background:#fff;}
+
+.skin #slideshow div.arrow{top:104px;background:#eee;color:#000;}
+
+.skin #slideshow,
+.skin #slides,
+.skin #slides ul li img{width:557px;height:235px}
+
+.skin #slideright.arrow{margin-left:530px}
+
+.skin #paginator{top:212px}
+
+.skin #paginator li{background:#ccc;border-color:#fff;}
+.skin #paginator li:hover,
+.skin #paginator li.current{background:#fff}
+.skin #paginator li{height:8px;width:8px;margin:0 4px 0 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+:hover{background-position:-50px 90px}
+*/
+
+ /*
+
+{margin:0;padding:0}
+
+#slideshow div.arrow{vertical-align:middle}
+#slideshow div.arrow{letter-spacing:0}
+
+
+body {font:12px Verdana,Arial; color:#555; background:#ddd}
+p {line-height:1.4; margin-bottom:12px}
+*/
+body{color:#555;background:#ddd;text-align:center}
